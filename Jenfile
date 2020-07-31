@@ -1,0 +1,7 @@
+node{
+   stage('SCM Checckout)
+     git 'https://github.com/Jaydah2020/my-app'
+   }
+   stage('Compile-Package'){
+   sh 'mvn package'
+   }
